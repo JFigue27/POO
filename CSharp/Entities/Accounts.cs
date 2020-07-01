@@ -1,3 +1,5 @@
+using System;
+
 namespace CSharp.Entities
 {
 
@@ -8,5 +10,11 @@ namespace CSharp.Entities
         public string document { get; set; }
         public string email { get; set; }
         public string password { get; set; }
+
+        public Account(String name)
+        {
+            this.name = name;
+        }
+
     }
 }

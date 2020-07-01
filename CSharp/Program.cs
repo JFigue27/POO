@@ -8,10 +8,8 @@ namespace CSharp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            var car = new Car();
-            car.id = 1;
+            var car = new Car("JJFI123456");
             car.driver = "Jaime Figueroa";
-            car.license = "JJFI123456";
             car.passenger = 4;
             car.printDataCar();
 
